@@ -83,10 +83,13 @@ $config['product_name'] = 'Ari::web -> Roundcube';
 // PLUGINS
 // ----------------------------------
 // List of active plugins (in plugins/ directory)
-$config['plugins'] = ['additional_message_headers', 'archive', 'attachment_reminder', 'database_attachments', 'example_addressbook', 'identicon', 'markasjunk', 'newmail_notifier', 'reconnect', 'show_additional_headers', 'subscriptions_option', 'userinfo', 'vcard_attachments', 'zipdownload', 'managesieve'];
+$config['plugins'] = ['additional_message_headers', 'archive', 'attachment_reminder', 'database_attachments', 'example_addressbook', 'identicon', 'markasjunk', 'newmail_notifier', 'reconnect', 'show_additional_headers', 'subscriptions_option', 'userinfo', 'vcard_attachments', 'zipdownload', 'managesieve', 'persistent_login'];
 
 $config['managesieve_host'] = 'tls://mail.ari.lt';
 
 // the default locale setting (leave empty for auto-detection)
 // RFC1766 formatted language name like en_US, de_DE, de_CH, fr_FR, pt_BR
 $config['language'] = 'en_GB';
+
+$config['ifpl_use_auth_tokens'] = true;
+$config['ifpl_login_expire'] = 60*60*24*30*12;
