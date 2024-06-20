@@ -1,3 +1,4 @@
+# This repository has been migrated to the self-hosted ari-web Forgejo instance: <https://git.ari.lt/ari/rc.ari.lt>
 # [rc.ari.lt](https://rc.ari.lt/)
 
 > ari-web roundcube instance
